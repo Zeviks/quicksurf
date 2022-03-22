@@ -1,3 +1,73 @@
+
 .container {
-    background-color: aqua;
+    height: 10rem;
+    padding: 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.item:nth-child(2) {
+    flex: 3;
+}
+
+.item:last-child {
+    justify-content: flex-end;
+}
+
+.callButton {
+    padding-right: .5rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.phone {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.order{
+    font-weight: 400;
+}
+
+.list {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.listItem {
+    margin: 7.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.cart {
+    position: relative;
+}
+
+.counter {
+    position: absolute;
+    top: -1rem;
+    right: -.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--main-font);
+    color: var(--background);
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.3rem;
 }
