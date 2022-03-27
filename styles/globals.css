@@ -5,6 +5,12 @@
   --unselected: #C1D0D9;
   --background: #ffffff;
 }
+body {
+  background-color: #fff;
+  opacity: 1;
+  background-image: radial-gradient(#023E61 0.65px, #fff 0.65px);
+  background-size: 13px 13px;
+}
 html,
 body {
   font-size: 62.5%;
@@ -12,7 +18,6 @@ body {
   margin: 0;
   font-family:'Open Sans', sans-serif;
   color: var(--main-font);
-  background: var(--background);
 }
 
 a {

@@ -1,0 +1,79 @@
+.container {
+    height: 90vh;
+    margin: 0 10rem;
+    
+}
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5rem 0;
+    height: 100%;
+}
+
+.imgContainer {
+    
+}
+.heroContent {
+    width: 40%;
+    height: 100%;
+}
+.highlightTitle {
+    position: relative;
+    color: var(--highlight);
+    font-size: 2rem;
+    font-weight: 700;
+    transform: rotate(-32deg);
+    top: -11rem;
+    left: -7rem;
+}
+.heroHeading {
+    font-size: 8rem;
+    line-height: 8rem;
+    width: 11ch;
+    margin: 0;
+}
+.heroDescription {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+    width: 48ch;
+}
+.startingPrice {
+    margin: 2rem;
+    font-size: 2rem;
+}
+.heroPrice {
+    margin: 1rem;
+    color: var(--highlight);
+    padding: .6rem;
+    background: #023E61ff;
+    box-shadow: 0 5px 20px 0 #023E6155;
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(15, 14, 14, 0.18);
+}
+.buttonSale {
+    margin: 5rem 0;
+    display: flex;
+    align-items: center;
+ }
+ .heroSale {
+     font-size: 1.8rem;
+     font-weight: 600;
+     margin-left: 3rem;
+ }
+.arrowContainer {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.imgContainer {
+    width: 60rem;
+    height: 50rem;
+}

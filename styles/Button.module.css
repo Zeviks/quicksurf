@@ -1,0 +1,16 @@
+.buyBtn {
+    font-size: 1.8rem;
+    font-weight: 500;
+    background: var(--highlight);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: 1.5rem 5rem;
+    cursor: pointer;
+    transition: background 200ms ease-in-out;
+}
+
+.buyBtn:hover {
+    transition: background 200ms ease-in-out;
+    background: var(--main-font);
+}
