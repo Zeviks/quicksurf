@@ -21,7 +21,7 @@ const Featured = () => {
                     <p className={styles.highlightTitle}>Hurray!</p>
                     <h1 className={styles.heroHeading} data-aos="fade-left"  data-aos-delay="200">Same Day Delivery Surf Boards!</h1>
                     <p className={styles.heroDescription} data-aos="fade-right"  data-aos-delay="400">Forget the long waits for a surfboard to arrive by mail. Order now and recieve it the same day!</p>
-                    <h2 className={styles.startingPrice} data-aos="fade-left"  data-aos-delay="600">Starting From <span className={styles.heroPrice}>$299.99</span></h2> 
+                    <h2 className={styles.startingPrice} data-aos="fade-left"  data-aos-delay="600">Now Starting From <span className={styles.heroPrice}>$299.99</span></h2> 
                     <div className={styles.buttonSale} data-aos="zoom-in">
                       <Button title="Order Now" />
                       <p className={styles.heroSale}>50% OFF!</p> 

@@ -1,0 +1,24 @@
+.container {
+    color: #fff;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--main-font);
+}
+.title {
+    font-size: 5rem;
+    margin: 0;
+}
+.desc {
+    font-size: 1.5rem;
+    width: 95ch;
+}
+
+.wrapper {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
