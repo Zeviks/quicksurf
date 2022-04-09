@@ -1,6 +1,7 @@
+import styles from '../styles/Footer.module.css'
 const Footer = () => {
   return (
-    <div style={{"background": "red"}}>Footer</div>
+    <div className={styles.container}>Footer</div>
   )
 }
 

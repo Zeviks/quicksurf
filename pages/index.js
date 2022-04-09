@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
 import Featured from '../components/Featured'
 import BoardList from '../components/BoardList'
+import Testimonials from '../components/Testimonials'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <Featured />
       <BoardList />
+      <Testimonials />
     </div>
   )
 }
