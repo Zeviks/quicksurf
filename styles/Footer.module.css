@@ -1,4 +1,6 @@
 .container {
     height: 50vh;
-    background: var(--main-font);
+    background-color: #fff;
+    background-image: url(/images/footerblur.png);
+    background-position: center;
 }
