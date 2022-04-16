@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 :root {
   --main-font: #023E61;
   --highlight: #7DE9FF;
@@ -7,17 +7,13 @@
 }
 body {
   background-color: #fff;
-  opacity: 1;
-  /* background-image: radial-gradient(#023E61 0.65px, #fff 0.65px);
-  background-size: 13px 13px; */
-  height: 300vh;
 }
 html,
 body {
   font-size: 62.5%;
   padding: 0;
   margin: 0;
-  font-family:'Open Sans', sans-serif;
+  font-family:'Roboto', sans-serif;
   color: var(--main-font);
 }
 
