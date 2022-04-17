@@ -52,6 +52,7 @@ const Featured = () => {
         >
           <Image
             src="/images/featured-img.svg"
+            alt="featured image"
             height="1000px"
             width="1000px"
           />

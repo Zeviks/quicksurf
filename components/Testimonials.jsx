@@ -14,7 +14,7 @@ const Testimonials = () => {
       <div>
         <div className={styles.heading}>
           <h2 className={styles.title} data-aos="fade-right">
-            Client's Kind Words
+            Client&rsquo;s Kind Words
           </h2>
           <p className={styles.headingQuote}>
             We Help ambitious business like yours generate more profits by
@@ -44,19 +44,28 @@ const Testimonials = () => {
                   data-aos="fade-up"
                   data-aos-delay="800"
                 >
-                  {" "}
                   SurfIT
                 </span>
               </p>
               <div className={styles.topLine}>
-                <Image src="/images/top-line.svg" width={1000} height={5} />
+                <Image
+                  src="/images/top-line.svg"
+                  alt="line"
+                  width={1000}
+                  height={5}
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className={styles.personImg} data-aos="fade-left">
-        <Image src="/images/testimonial-p.png" width="1000px" height="1000px" />
+        <Image
+          src="/images/testimonial-p.png"
+          alt="line"
+          width="1000px"
+          height="1000px"
+        />
       </div>
     </div>
   );

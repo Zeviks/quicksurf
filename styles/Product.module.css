@@ -1,0 +1,107 @@
+.container {
+ height: calc(100vh - 100px);
+ display: flex;   
+}
+
+.left {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    flex: 1;
+    padding: 2rem;
+}
+
+.imgContainer {
+    width: 80%;
+    height: 80%;
+    position: relative;
+}
+.choose {
+    font-size: 2rem;
+}
+.price {
+     color: var(--highlight);
+     font-size: 4.4rem;
+     font-weight: 400;
+     border-bottom:1px solid var(--highlight);
+}
+.title {
+    font-size: 4rem;
+}
+.desc {
+    font-size: 2rem;
+    width: 60ch;
+}
+.sizes {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.size {
+    color: var();
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.size:nth-child(2) {
+    width: 6rem;
+    height: 6rem;
+}
+
+.size:last-child {
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+.number {
+    position: absolute;
+    top: 2rem;
+    right: -2rem;
+    background-color: var(--main-font);
+    color: var(--highlight);
+    font-size: 1.5rem;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+}
+
+.parts {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.part {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.checkbox {
+    width: 2rem;
+    height: 2rem;
+}
+
+.quantity {
+    width: 5rem;
+    height: 5rem;
+}
+
+.addToCart {
+    background-color: var(--main-font);
+   color: var(--highlight);
+   margin-left: 1rem;
+   border: none;
+   font-weight: 500;
+   font-size: 1.4rem;
+   padding: 1.8rem;     
+    cursor: pointer;
+}
