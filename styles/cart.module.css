@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    padding: 5rem;
+    font-size: 2rem;
+}
+
+.left {
+    flex: 2;
+}
+
+.right {
+    flex: 1;
+}
+.imgContainer {
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    margin: 0 auto;
+}
+
+.table {
+    width: 90%;
+    border-spacing: 1rem;
+}
+
+.name {
+    font-weight: 600;
+    color: var(--main-font);
+    font-size: 2.5rem;
+}
+.extras {
+    font-size: 1.5rem;
+}
+.total {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.totalContainer {
+    width: 80%;
+    max-height: 30rem;
+    background-color: var(--main-font);
+    padding: 6rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--highlight);
+}
+
+.totalTextTitle {
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+
+.button {
+    height: 30rem;
+    align-self: center;
+    width: 75%;
+    background-color: var(--highlight);
+    color: var(--main-font);
+    font-weight: bold;
+    padding: 2rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: all 100ms ease-in-out;
+}
+
+.button:hover {
+    background-color: #fff;
+    transition: all 100ms ease-in-out;
+}
+
+.td {
+    text-align: center;
+}
