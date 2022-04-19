@@ -58,7 +58,8 @@ const Featured = () => {
           />
         </div>
       </div>
-      <div className={styles.scroll} data-aos="zoom-out">
+      {/* THIS NEEDS A FIX */}
+      <div className={styles.scroll}>
         <p className={styles.scrollTitle}>Our Awesome Boards</p>
         <FontAwesomeIcon icon={faAngleDown} className={styles.scrollIcon} />
       </div>

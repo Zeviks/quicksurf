@@ -130,35 +130,6 @@ const Cart = () => {
               <span className={styles.total}>$1,000</span>
             </td>
           </tr>
-          <tr className={styles.tr}>
-            <td className={styles.imgTD}>
-              <div className={styles.imgContainer}>
-                <Image
-                  src="/images/board1.webp"
-                  alt=""
-                  layout="fill"
-                  objectFit="contain"
-                />
-              </div>
-            </td>
-            <td className={styles.td}>
-              <span className={styles.name}>WAYMAKER</span>
-            </td>
-            <td className={styles.td}>
-              <span className={styles.extras}>
-                Razor Edge Fins & Non-Slip Coating
-              </span>
-            </td>
-            <td className={styles.td}>
-              <span className={styles.price}>$1,000</span>
-            </td>
-            <td className={styles.td}>
-              <span className={styles.quantity}>1</span>
-            </td>
-            <td className={styles.td}>
-              <span className={styles.total}>$1,000</span>
-            </td>
-          </tr>
         </table>
       </div>
       <div className={styles.right}>

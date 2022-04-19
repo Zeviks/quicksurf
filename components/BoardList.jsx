@@ -1,6 +1,5 @@
 import BoardCard from "./BoardCard";
 import styles from "../styles/BoardList.module.css";
-import Image from "next/image";
 
 const BoardList = () => {
   return (
