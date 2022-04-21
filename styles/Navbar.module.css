@@ -10,6 +10,7 @@
     position: sticky;
     top: 0;
     background: #fff;
+    border-bottom: #7DE9FF66 solid 1px;
 }
 .img {
     width: 10rem;
