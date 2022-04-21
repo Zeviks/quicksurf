@@ -39,12 +39,13 @@
 }
 
 .phone {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 
 .order{
     font-weight: 400;
+    font-size: 1rem;
 }
 
 .list {
@@ -74,7 +75,9 @@
 
 .cart {
     position: relative;
+    cursor: pointer;
 }
+
 
 .counter {
     position: absolute;

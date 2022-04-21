@@ -10,8 +10,8 @@ const Navbar = () => {
           <Image
             src="/images/phone.svg"
             alt="Telephone Icon"
-            width="32"
-            height="32"
+            width="40"
+            height="40"
           />
         </div>
         <div className={styles.texts}>
@@ -33,8 +33,8 @@ const Navbar = () => {
               <Image
                 src="/images/logo.svg"
                 alt="Logo"
-                width="150px"
-                height="59px"
+                width="180px"
+                height="100px"
               />
             </Link>
           </li>
@@ -49,8 +49,15 @@ const Navbar = () => {
 
       <div className={styles.item}>
         <div className={styles.cart}>
-          <Image src="/images/cart.svg" alt="cart" width="30px" height="30px" />
-          <div className={styles.counter}>2</div>
+          <Link href="/cart" passHref>
+            <Image
+              src="/images/cart.svg"
+              alt="cart"
+              width="30px"
+              height="30px"
+            />
+          </Link>
+          <div className={styles.counter}>4</div>
         </div>
       </div>
     </div>
