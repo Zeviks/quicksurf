@@ -76,3 +76,53 @@
 .td {
     text-align: center;
 }
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        padding: 0;
+    }
+    .totalContainer {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 4rem;
+    }
+    .table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .trTitles {
+        display: none;
+    }
+    .tr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+    .imgContainer {
+        width: 35vw;
+        height: 35vw;
+    }
+    .name, .total {
+        font-size: 2.4rem;
+    }
+    .extras, .price, .quantity {
+        font-size: 2.2rem;
+    } 
+    .price::before {
+        content: "Price : ";
+        font-weight: 600;
+    }
+    .quantity::before {
+        content: "Quantity : ";
+        font-weight: 600;
+    }
+    .total::before {
+        content: "Total : ";
+        font-weight: 600;
+    }
+}
