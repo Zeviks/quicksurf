@@ -64,7 +64,10 @@ const Footer = () => {
           &#169;2022 Eternity | Terms | Privacy Policy
         </p>
         <p className={styles.personal}>
-          Built and Designed By <a href="#">Natanael✨</a>
+          Built and Designed By{" "}
+          <a href="https://www.natepacheco.dev/">
+            <span className={styles.personalLink}>Natanael</span>✨
+          </a>
         </p>
       </div>
     </div>

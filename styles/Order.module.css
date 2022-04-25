@@ -72,8 +72,9 @@
 
 .button {
     background-color: #fff;
-    height: 3rem;
-    color: teal;
+    height: 4rem;
+    border: none;
+    color: var(--highlight);
     font-weight: 700;
     margin-top: 20px;
     cursor: not-allowed;

@@ -1,5 +1,6 @@
 import styles from "../styles/cart.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const Cart = () => {
   return (
@@ -144,7 +145,9 @@ const Cart = () => {
           <div className={styles.totalText}>
             <b className={styles.totalTextTitle}>Total:</b>$79.60
           </div>
-          <button className={styles.button}>CHECKOUT NOW!</button>
+          <div className={styles.checkoutBtn}>
+            <Link href="/order/22334455/">CHECKOUT NOW!</Link>
+          </div>
         </div>
       </div>
     </div>

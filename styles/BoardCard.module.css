@@ -50,3 +50,19 @@
     text-align: center;
     margin-bottom: 1rem;
 }
+
+.checkoutSec a {
+    font-size: 1.8rem;
+    font-weight: 500;
+    background: var(--highlight);
+    color: #fff;
+    border-radius: .5rem;
+    padding: 0.99rem 5rem;
+    cursor: pointer;
+    transition: background 200ms ease-in-out;
+}
+
+.checkoutSec a:hover {
+    transition: background 200ms ease-in-out;
+    background: var(--main-font);
+}

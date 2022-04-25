@@ -110,3 +110,8 @@
     color: #fff;
     margin: 0;
 }
+
+.personalLink:hover {
+    color: var(--highlight);
+    transition: color 200ms ease-in-out;
+}
