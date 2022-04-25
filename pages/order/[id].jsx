@@ -15,7 +15,7 @@ const Order = () => {
       <div className={styles.left}>
         <div className={styles.row}>
           <table className={styles.table}>
-            <tr className={styles.tr}>
+            <tr className={styles.trTitles}>
               <th>Order ID</th>
               <th>Customer</th>
               <th>Address</th>
