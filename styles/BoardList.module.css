@@ -20,7 +20,7 @@
 }
 .desc {
     font-size: 1.4rem;
-    width: 85ch;
+    width: 45ch;
     text-align: center;
     font-weight: 600;
 }
@@ -31,4 +31,24 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        height: fit-content;
+    }
+    .title {
+        font-size: 6rem;
+        width: 12ch;
+        text-align: center;
+    }
+    .desc {
+        font-size: 1.6rem;
+        width: 52ch;
+        padding: 1rem 2rem;
+    }
+    .secondSet,
+    .thirdSet {
+        display: none;
+    }
 }

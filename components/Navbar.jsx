@@ -42,7 +42,7 @@ const Navbar = () => {
             <Link href="https://www.natepacheco.dev/">Portfolio</Link>
           </li>
           <li className={styles.listItem}>
-            <Link href="#">Contact</Link>
+            <Link href="https://www.natepacheco.dev/#contact">Contact</Link>
           </li>
         </ul>
       </div>

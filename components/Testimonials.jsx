@@ -22,7 +22,7 @@ const Testimonials = () => {
           </p>
         </div>
         <div className={styles.topLine}>
-          <Image src="/images/top-line.svg" width={1000} height={5} />
+          <Image src="/images/top-line.svg" alt="" width={1000} height={5} />
         </div>
         <div className={styles.testimonialContainer}>
           <div className={styles.testimonialContent}>

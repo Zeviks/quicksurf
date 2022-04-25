@@ -81,3 +81,49 @@
     font-weight: 400;
     color: var(--highlight);
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0;
+        height: 50vh;
+    }
+    .personImg {
+        display: none;
+    }
+    .testimonialContent {
+        width: 100%;
+    }
+    .topLine {
+        display: none;
+    }
+    .headingQuote {
+        display: none;
+    }
+    .testimonialContainer {
+        flex-direction: column;
+    }
+    .testimonialText {
+        width: fit-content;
+        margin: 0;
+        padding: 1.3rem;
+        font-size: 1.8rem;
+
+    }
+    .testimonialName {
+        width: 100%;
+        padding: 1rem;
+    }
+    .name {
+        font-size: 2.5rem;   
+    }
+    .job {
+        font-size: 2rem;
+    }
+    .title {
+        width: fit-content;
+        margin: 0;
+        padding: 1.3rem;
+        font-size: 7rem;
+        line-height: 7rem;
+    }
+}

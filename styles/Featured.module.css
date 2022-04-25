@@ -91,3 +91,53 @@
     width: 3rem;
     height: 3rem;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        height: 90vh;
+    }
+    .hero {
+        height: 75%;
+        align-items: center;
+    }
+    .heroHeading {
+        font-size: 8.3rem;
+        margin: 0;
+        padding: 0 1rem;
+    }
+    .heroDescription {
+        width: max-content;
+    }
+    .startingPrice {
+        margin-top: 5rem;
+        font-size: 2.8rem;
+        text-align: center;
+    }
+    .heroContent {
+        margin-top: 2rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgContainer {
+     display: none;
+    }
+    .buttonSale {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .heroSale {
+        text-align: center;
+        margin: 1rem 0;
+    }
+    .buttonSale Button {
+        padding: 2rem 10rem;
+        font-size: 2.2rem;
+        margin-top: 3rem;
+    }
+    .scroll {
+        display: none;
+    }
+}
