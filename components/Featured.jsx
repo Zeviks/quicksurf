@@ -31,7 +31,8 @@ const Featured = () => {
             data-aos-delay="400"
           >
             Forget the long waits for a surfboard to arrive by mail.
-            <br /> Order now and recieve it the same day!
+            <br />
+            Order now and recieve it the same day!
           </p>
           <h2
             className={styles.startingPrice}

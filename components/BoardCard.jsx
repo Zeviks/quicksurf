@@ -1,17 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styles from "../styles/BoardCard.module.css";
-import Button from "./Button";
 import Link from "next/link";
-import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 const BoardCard = ({ title, desc, price, img, aosDir, aosDelay }) => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
   return (
     <div
       className={styles.container}
@@ -24,7 +17,6 @@ const BoardCard = ({ title, desc, price, img, aosDir, aosDelay }) => {
         <p className={styles.desc}>{desc}</p>
         <span className={styles.priceMark}>Starting At ${price}</span>
         <div className={styles.checkoutSec}>
-          {/* <Button className={styles.customizeBtn} title="Customize" /> */}
           <Link href="/product/222333444999">Customize</Link>
         </div>
       </div>

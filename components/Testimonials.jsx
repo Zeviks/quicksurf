@@ -1,14 +1,8 @@
 import styles from "../styles/Testimonials.module.css";
 import Image from "next/image";
-import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 const Testimonials = () => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
   return (
     <div className={styles.container}>
       <div>
@@ -59,7 +53,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className={styles.personImg} data-aos="fade-left">
+      <div className={styles.personImg}>
         <Image
           src="/images/testimonial-p.png"
           alt="line"
