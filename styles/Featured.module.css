@@ -13,6 +13,7 @@
 }
 .heroContent {
     width: 40%;
+    z-index: 5;
 }
 
 .highlightTitle {
@@ -35,7 +36,7 @@
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 400;
-    width: 90ch;
+    width: fit-content;
 }
 .startingPrice {
     margin: 4rem 0 2rem 0;
@@ -143,5 +144,50 @@
     }
     .scroll {
         display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+       margin: 0;
+       padding: 0 3rem;
+       height: 90vh; 
+    }
+    .hero {
+       display: block;
+       height: 85vh;
+    }
+    .heroHeading {
+        width: 15ch;
+        font-size: 8.3rem;
+        margin-bottom: 3rem;
+        line-height: 8.8rem;
+    }
+    .heroDescription {
+        font-size: 1.8rem;
+        width: 50ch;
+        font-weight: 500;
+    }
+    .heroContent {
+        padding: 3rem 0;
+    }
+    .imgContainer {
+        position: absolute;
+        width: 44rem;
+        height: 60rem;
+        top: 40rem;
+        left: 32rem;
+    }
+    .highlightTitle {
+        display: none;
+    }
+    .buttonSale {
+        margin-top: 28rem;
+        align-self: center;
+        flex-direction: column;
+    }
+    .heroSale {
+        margin: 0;
+        margin-top: 1rem;
     }
 }

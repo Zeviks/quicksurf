@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <Featured />
       <BoardList />
-      <Testimonials />
+      {/* <Testimonials /> */}
     </div>
   );
 }

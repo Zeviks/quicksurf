@@ -103,3 +103,8 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .item:nth-child(2) {
+        display: none;
+    }
+}

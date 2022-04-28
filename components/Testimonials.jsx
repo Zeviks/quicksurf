@@ -7,9 +7,7 @@ const Testimonials = () => {
     <div className={styles.container}>
       <div>
         <div className={styles.heading}>
-          <h2 className={styles.title} data-aos="fade-right">
-            Client&rsquo;s Kind Words
-          </h2>
+          <h2 className={styles.title}>Client&rsquo;s Kind Words</h2>
           <p className={styles.headingQuote}>
             We Help ambitious business like yours generate more profits by
             building awerness, and delivering quality products.
@@ -20,7 +18,7 @@ const Testimonials = () => {
         </div>
         <div className={styles.testimonialContainer}>
           <div className={styles.testimonialContent}>
-            <p className={styles.testimonialText} data-aos="zoom-in">
+            <p className={styles.testimonialText} data-aos="fade-right">
               “I’ve Been Working With QuickSurf Since 2014 And it Has Great! He
               Works Fast And Consistently Delivers High-Quality Work. They Takes
               My Vision And Translates It Into A Prefessional Design That
@@ -31,15 +29,9 @@ const Testimonials = () => {
 
             <div className={styles.testimonialName}>
               <h3 className={styles.name}>Mustafa Rahaman</h3>
-              <p className={styles.job} data-aos="fade-left">
+              <p className={styles.job}>
                 CEO,
-                <span
-                  className={styles.company}
-                  data-aos="fade-up"
-                  data-aos-delay="800"
-                >
-                  SurfIT
-                </span>
+                <span className={styles.company}>SurfIT</span>
               </p>
               <div className={styles.topLine}>
                 <Image
