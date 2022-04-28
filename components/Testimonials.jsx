@@ -18,7 +18,7 @@ const Testimonials = () => {
         </div>
         <div className={styles.testimonialContainer}>
           <div className={styles.testimonialContent}>
-            <p className={styles.testimonialText} data-aos="fade-right">
+            <p className={styles.testimonialText}>
               “I’ve Been Working With QuickSurf Since 2014 And it Has Great! He
               Works Fast And Consistently Delivers High-Quality Work. They Takes
               My Vision And Translates It Into A Prefessional Design That

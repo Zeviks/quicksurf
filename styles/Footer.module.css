@@ -134,3 +134,23 @@
         color: #bae6ff;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding-top: 7rem;
+    }
+    .footerList {
+        display: none;
+    }
+    .footerContent {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+    .branding p {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        color: #bae6ff;
+    }
+}

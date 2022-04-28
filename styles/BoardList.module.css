@@ -48,3 +48,13 @@
         padding: 1rem 2rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        height: fit-content;
+    }
+    .title {
+       font-size: 5rem; 
+    }
+}
