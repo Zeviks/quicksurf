@@ -175,3 +175,15 @@
         line-height: 7rem;
     }
 }
+
+@media screen and (max-width: 1279px) {
+    .container {
+        padding: 1rem 4rem 0 7rem;
+    }
+    .title {
+        margin-right: 8rem;
+    }
+    .personImg {
+        display: none;
+    }
+}

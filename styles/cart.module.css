@@ -177,3 +177,15 @@
         font-weight: 600;
     }
 }
+
+@media screen and (max-width: 1279px) {
+    .totalContainer {
+        max-height: 35rem;
+    }
+    .table {
+      width: 95%;  
+    }
+    .checkoutBtn {
+        width: 95%;
+    }
+}

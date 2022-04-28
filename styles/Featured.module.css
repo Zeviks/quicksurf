@@ -191,3 +191,20 @@
         margin-top: 1rem;
     }
 }
+
+@media screen and (max-width: 1279px) {
+    .container {
+        height: 100vh;
+    }
+        .highlightTitle {
+            top: -7rem;
+            left: -7rem;
+        }
+        .heroHeading {
+        font-size: 10rem;
+        }
+        .imgContainer {
+            width: 50rem;
+            height: 50rem;
+        }
+}

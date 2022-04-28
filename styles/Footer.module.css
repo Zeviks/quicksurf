@@ -154,3 +154,26 @@
         color: #bae6ff;
     }
 }
+
+@media screen and (max-width: 1279px) {
+    .container {
+        padding-top: 7rem;
+    }
+    .footerContent {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerList {
+        padding: 0 4rem;
+    }   
+    .branding p {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        color: #bae6ff;
+    }
+    .branding {
+        margin-left: 4rem;
+    }
+}

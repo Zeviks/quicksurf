@@ -81,3 +81,11 @@
         margin: 1rem;
     }
 }
+
+@media screen and (max-width: 1279px) {
+    .container {
+        width: 19%;
+        height: fit-content;
+        margin: 1rem;
+    }
+}
