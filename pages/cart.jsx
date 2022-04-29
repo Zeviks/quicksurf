@@ -146,7 +146,7 @@ const Cart = () => {
             <b className={styles.totalTextTitle}>Total:</b>$79.60
           </div>
           <div className={styles.checkoutBtn}>
-            <Link href="/order/22334455/">CHECKOUT NOW!</Link>
+            <Link href="/order/22334455/">CHECKOUT</Link>
           </div>
         </div>
       </div>
