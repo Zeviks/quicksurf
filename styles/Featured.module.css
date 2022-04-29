@@ -158,19 +158,19 @@
     .container {
         margin: 0;
         padding: 0 2rem;
-        height: 80vh !important;
+        height: 80vh;
     }
     
     .hero {
         height: 75%;
     }
     .heroHeading {
-        font-size: 8.3rem !important;
+        font-size: 8.3rem;
         margin-bottom: 3rem;
         padding: 0 1rem;
     }
     .heroDescription {
-        width: 100% !important;
+        width: 100%;
         font-size: 1.8rem;
         font-weight: 400;
     }
