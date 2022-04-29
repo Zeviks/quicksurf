@@ -152,6 +152,10 @@
         margin: 0;
         margin-top: 1rem;
     }
+    .startingPrice {
+        font-size: 1.8rem;
+        letter-spacing: -.07rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
