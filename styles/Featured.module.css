@@ -165,7 +165,9 @@
         height: 75%;
     }
     .heroHeading {
-        font-size: 8.3rem;
+        width: 100%;
+        line-height: 8rem;
+        font-size: 8rem;
         margin-bottom: 3rem;
         padding: 0 1rem;
     }
