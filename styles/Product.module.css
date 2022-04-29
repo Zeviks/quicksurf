@@ -105,24 +105,9 @@
    padding: 1.8rem;     
     cursor: pointer;
 }
-
-@media screen and (max-width: 480px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-    .desc {
-        width: fit-content;
-        font-size: 1.5rem;
-    }
-    .title {
-        font-size: 3rem;
-    }
-    .price {
-        font-size: 4rem;
-    }
+@media screen and (max-width: 1279px) {
     .sizes {
-        width: 65%;
+        width: 60%;
     }
 }
 
@@ -153,8 +138,23 @@
     }
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .desc {
+        width: fit-content;
+        font-size: 1.5rem;
+    }
+    .title {
+        font-size: 3rem;
+    }
+    .price {
+        font-size: 4rem;
+    }
     .sizes {
-        width: 60%;
+        width: 65%;
     }
 }
+

@@ -66,22 +66,6 @@
     transition: background 200ms ease-in-out;
     background: var(--main-font);
 }
-
-@media screen and (max-width: 480px) {
-    .container {
-        width: 100%;
-        margin: 2rem 0;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        width: 45%;
-        height: fit-content;
-        margin: 1rem;
-    }
-}
-
 @media screen and (max-width: 1279px) {
     .container {
         width: 19%;
@@ -89,3 +73,20 @@
         margin: 1rem;
     }
 }
+@media screen and (max-width: 768px) {
+    .container {
+        width: 45% !important;
+        height: fit-content;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100% !important;
+        margin: 2rem 0;
+    }
+}
+
+
+
