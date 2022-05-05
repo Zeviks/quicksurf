@@ -1,6 +1,6 @@
 import styles from "../styles/Featured.module.css";
 import Image from "next/image";
-import Button from "./Button";
+import Link from "next/link";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AOS from "aos";
@@ -42,7 +42,9 @@ const Featured = () => {
             Now Starting From <span className={styles.heroPrice}>$299.99</span>
           </h2>
           <div className={styles.buttonSale} data-aos="zoom-in">
-            <Button title="Order Now" />
+            <Link className={styles.buyBtn} href="/product/222333444999">
+              Order Now
+            </Link>
             <p className={styles.heroSale}>50% OFF!</p>
           </div>
         </div>
