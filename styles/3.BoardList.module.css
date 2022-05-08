@@ -34,13 +34,13 @@
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1279px) {
+@media all and (min-width: 768px) and (max-width: 1279px) {
     .container {
         width: 100%;
         height: fit-content;
     }
 }
-@media screen and (max-width: 768px) {
+@media all and (min-width: 640px) and (max-width: 768px) {
     .container {
         width: 100%;
         height: fit-content;
@@ -49,7 +49,23 @@
        font-size: 5rem; 
     }
 }
-@media screen and (max-width: 480px) {
+
+@media all and (min-width: 480px) and (max-width: 640px) {
+    .container {
+        width: 100%;
+        height: fit-content;
+    }
+    .title {
+       font-size: 6rem; 
+       text-align: center;
+    }
+    .desc {
+        width: fit-content;
+    }
+  
+}
+ 
+@media all and (max-width: 480px) {
     .container {
         height: fit-content;
     }
@@ -59,9 +75,8 @@
         text-align: center;
     }
     .desc {
-        font-size: 1.6rem;
-        width: 52ch;
+        font-size: 1.4rem;
+        width: 50ch;
         padding: 1rem 2rem;
     }
 }
-

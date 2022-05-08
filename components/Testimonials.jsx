@@ -1,4 +1,4 @@
-import styles from "../styles/Testimonials.module.css";
+import styles from "../styles/5.Testimonials.module.css";
 import Image from "next/image";
 import "aos/dist/aos.css";
 

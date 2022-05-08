@@ -1,4 +1,4 @@
-import styles from "../styles/Featured.module.css";
+import styles from "../styles/2.Featured.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";

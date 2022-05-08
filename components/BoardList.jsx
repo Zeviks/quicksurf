@@ -1,5 +1,5 @@
 import BoardCard from "./BoardCard";
-import styles from "../styles/BoardList.module.css";
+import styles from "../styles/3.BoardList.module.css";
 
 const BoardList = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styles from "../styles/BoardCard.module.css";
+import styles from "../styles/4.BoardCard.module.css";
 import Link from "next/link";
 import "aos/dist/aos.css";
 

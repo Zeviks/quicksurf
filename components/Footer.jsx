@@ -1,4 +1,4 @@
-import styles from "../styles/Footer.module.css";
+import styles from "../styles/6.Footer.module.css";
 import Image from "next/image";
 
 const Footer = () => {
