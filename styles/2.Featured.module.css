@@ -113,8 +113,21 @@
 
 @media all and (min-width: 1440px) and (max-width: 2559px) {
     .highlightTitle {
-        top: -22rem;
-        left: -12rem;
+        top: -12rem;
+        left: -10rem;
+    }
+    .container {
+        height: 100vh;
+    }
+    .heroHeading {
+    font-size: 9rem;
+    }
+    .imgContainer {
+        width: 50rem;
+        height: 50rem;
+    }
+    .heroContent {
+        margin-bottom: 8rem;
     }
 }
 
