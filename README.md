@@ -7,7 +7,7 @@ Visit Site 🌏: https://quicksurf-final.vercel.app/
 
 This project is meant to serve as a UI example. Although I am planning on making a 
 backend for the site to pull products from a database.💾</br>
-Thanks for taking the time and looking at my project, any feedback is muchly appreciated!✨
+Thanks for taking the time to look at my project, any feedback is muchly appreciated!✨
 
 
 
